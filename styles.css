@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h4 {
+    color: #00856F;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #212529;
+    margin-bottom: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #495057;
+    margin-bottom: 32px;
+    line-height: 150%;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #00856F;
+
+    width: 263px;
+    height: 52px;
+
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 40px;
+    display: flex;
+    gap: 16px;
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    background-color: #DCE9E2;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+    width: 375px;
+}
+
+.stats{
+    background-color: #FFFAF1;
+    border-radius: 6px;
+    width: 327px;
+    height: 470px;
+     margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.dados{
+    font-weight :700, Bold;
+    font-size: 48px;
+    line-height : 62.4px;
+    color: #212529;
+    margin-bottom: 4px;
+}
+.legenda-dados{
+    color:#00856F;
+    font-weight:400;
+    font-size:16px;
+    margin: 0;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
